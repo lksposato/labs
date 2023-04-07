@@ -4,18 +4,32 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <header className="App-header">        
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://lksposato.github.io/chromatography"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Chromatography Lab
+        </a>
+        <p></p>
+        <a
+          className="App-link"
+          href="https://lksposato.github.io/electrochemistry"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Electrochemistry Lab
+        </a>
+        <p></p>
+        <a
+          className="App-link"
+          href="https://lksposato.github.io/kinetics"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kinetics Lab
         </a>
       </header>
     </div>
