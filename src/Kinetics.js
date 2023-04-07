@@ -1,18 +1,25 @@
 import React from 'react';
-import './App.css';
- 
+import './Kinetics.css';
 
-function Kinetics() {
-  return (
+export default function Kinetics() {
+  document.getElementsByTagName("title")[0].innerHTML = "Kinetics Lab";
+  
+  return (    
     <div className="App">
-        whateva
-        <kinetics_lab>
-            <script>
-
-            </script>
-        </kinetics_lab>
+      <header className="App-header">
+      <h1> Kinetics Lab </h1>  
+          <p></p>
+          <p></p>
+          Initial Concentration: <input id= "concentration"></input>
+          <p></p>
+          <button id="btn_restart"> Rerun Current Simulation </button>
+          <button id="btn_newsim"> Run New Simulation </button>
+          <p></p>
+            <table id="data_table">
+            </table>
+          <p></p>
+          <label id="debuglog"> </label>
+        </header>
     </div>
   );
 }
-
-export default Kinetics;

@@ -24,7 +24,7 @@ export default function Home() {
         <p></p>
         <a
           className="App-link"
-          href="/kinetics"
+          href="https://lksposato.github.io/kinetics"
           target="_blank"
           rel="noopener noreferrer"
         >
